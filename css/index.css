@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+
+  background-color: #77AD96;
+  animation: fadebackground 6s  ;
+  }
+  @keyframes fadebackground {
+  from {background-color:black; opacity: 0%}
+  to {background-color: #77AD96;}
+  }
+
+}
+html {
+  background-color: #77AD96;
+}
+
+
+.toppart {
+  height: 450px;
+  background-color:#F2EAC3;
+  background-image: url('../images/bam blanc_Plandetravail1.png');
+  position: absolute;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+.secondpart {
+  position: absolute;
+  top: 460px;
+  height: 600px;
+
+}
+.thirdpart {
+  position: absolute;
+  top: 1600px;
+  height: 1050px;
+  width: 100%;
+  background-color: #F2EAC3;
+}
+.img2 {
+  position: absolute;
+  margin-top: 10px;
+  right: 0;
+}
